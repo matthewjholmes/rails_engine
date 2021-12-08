@@ -26,5 +26,9 @@ RSpec.describe 'Items index for given merchant endpoint' do
     end
   end
 
-  #sad path
+  it 'returns 404 when id is not valid' do
+    get "/api/v1/merchants/1/items"
+
+    expect(response.status).to eq(404)
+  end
 end

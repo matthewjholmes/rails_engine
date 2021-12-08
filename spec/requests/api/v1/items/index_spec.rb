@@ -35,5 +35,5 @@ RSpec.describe 'Items index endpoint' do
     expect(items[:data]).to be_an(Array)
     expect(items[:data]).to eq([])
   end
-  #sad path
+
 end

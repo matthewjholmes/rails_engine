@@ -21,11 +21,9 @@ RSpec.describe 'Merchant show endpoint' do
     expect(merchant[:data][:attributes][:name]).to be_a(String)
   end
 
-  # it 'returns 404 status if merchant id not valid' do
-  #   merchant = create(:merchant, id: 1)
-  #
-  #   get "/api/v1/merchants/2"
-  #
-  #   expect(response.status).to eq(404)
-  # end
+  it 'returns 404 status if id is not found' do
+    get "/api/v1/merchants/1"
+
+    expect(response.status).to eq(404)
+  end
 end
