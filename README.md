@@ -27,7 +27,7 @@
   </a>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Exposes an API for a fictitious e-commerce platform
     <br />
     <a href="https://github.com/matthewjholmes/rails_engine"><strong>Explore the docs »</strong></a>
     <br />
