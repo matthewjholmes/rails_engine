@@ -27,17 +27,16 @@ RSpec.describe 'Find merchant endpoint' do
   it 'raises a 400 error if params are missing' do
     get '/api/v1/merchants/find', params: { name: "" }
 
-    expect(response).to_not be_successful
+    # expect(response).to_not be_successful
     expect(response.status).to eq(400)
   end
 
   it 'returns nil attributes if no merchant is found' do
     get '/api/v1/merchants/find', params: { name: "C" }
-
+# require "pry"; binding.pry
     expect(response).to be_successful
 
     merchant = JSON.parse(response.body, symbolize_names: true)
-
-    expect(merchant[:data][:attributes][:name]).to be(nil)
+    expect(merchant[:errors]).to eq("Could not find Merchant C")
   end
 end
