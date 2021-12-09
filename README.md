@@ -7,7 +7,7 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
+*** matthewjholmes, rails_engine, twitter_handle, matthewjholmes@gmail.com, Rails Engine, Exposes API for a fictional e-commerce platform.
 -->
 
 
@@ -32,23 +32,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/matthewjholmes/rails_engine">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Rails Engine</h3>
 
   <p align="center">
-    project_description
+    Exposes API for a fictional e-commerce platform.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/matthewjholmes/rails_engine"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/matthewjholmes/rails_engine">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/matthewjholmes/rails_engine/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/matthewjholmes/rails_engine/issues">Request Feature</a>
   </p>
 </p>
 
@@ -89,7 +89,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+`matthewjholmes`, `rails_engine`, `twitter_handle`, `matthewjholmes@gmail.com`, `Rails Engine`, `Exposes API for a fictional e-commerce platform.`
 
 
 ### Built With
@@ -117,7 +117,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/matthewjholmes/rails_engine.git
    ```
 2. Install NPM packages
    ```sh
@@ -138,7 +138,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/matthewjholmes/rails_engine/issues) for a list of proposed features (and known issues).
 
 
 
@@ -165,9 +165,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - matthewjholmes@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/matthewjholmes/rails_engine](https://github.com/matthewjholmes/rails_engine)
 
 
 
@@ -184,13 +184,13 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/matthewjholmes/repo.svg?style=for-the-badge
 [contributors-url]: https://github.com/matthewjholmes/rails_engine/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/matthewjholmes/repo.svg?style=for-the-badge
 [forks-url]: https://github.com/matthewjholmes/rails_engine/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/matthewjholmes/repo.svg?style=for-the-badge
 [stars-url]: https://github.com/matthewjholmes/rails_engine/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/matthewjholmes/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/matthewjholmes/rails_engine/issues
 [license-shield]: https://img.shields.io/github/license/matthewjholmes/repo.svg?style=for-the-badge
 [license-url]: https://github.com/matthewjholmes/rails_engine/blob/master/LICENSE.txt
