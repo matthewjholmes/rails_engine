@@ -1,4 +1,5 @@
 class Item < ApplicationRecord
+  before_destroy :delete_empty_invoices!
 
   belongs_to :merchant
   has_many :invoice_items, dependent: :destroy
@@ -8,6 +9,11 @@ class Item < ApplicationRecord
   validates_presence_of :description
   validates_presence_of :unit_price
   validates_presence_of :merchant_id
+
+  def delete_empty_invoices!
+    require "pry"; binding.pry
+    invoices.delete_empty!
+  end
 
   def self.merchant_items(id)
     where(merchant_id: id)
