@@ -33,7 +33,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/matthewjholmes/rails_engine">
-    <img src="media/Rails Engine Logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="https://github.com/matthewjholmes/rails_engine/blob/main/media/Rails%20Engine-logos.jpeg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Rails Engine</h3>
