@@ -1,5 +1,7 @@
 # README
 
+![test gif](https://github.com/matthewjholmes/rails_engine/blob/main/Test%20Animated%20GIF.gif)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
