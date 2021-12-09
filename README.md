@@ -184,15 +184,15 @@ Project Link: [https://github.com/matthewjholmes/rails_engine](https://github.co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/matthewjholmes/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/matthewjholmes/rails_engine/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/matthewjholmes/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/matthewjholmes/rails_engine/network/members
-[stars-shield]: https://img.shields.io/github/stars/matthewjholmes/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/matthewjholmes/rails_engine/stargazers
-[issues-shield]: https://img.shields.io/github/issues/matthewjholmes/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/matthewjholmes/rails_engine/issues
-[license-shield]: https://img.shields.io/github/license/matthewjholmes/repo.svg?style=for-the-badge
-[license-url]: https://github.com/matthewjholmes/rails_engine/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/matthew-j-holmes/
+[contributors-shield](https://img.shields.io/github/contributors/matthewjholmes/repo.svg?style=for-the-badge)
+[contributors-url](https://github.com/matthewjholmes/rails_engine/graphs/contributors)
+[forks-shield](https://img.shields.io/github/forks/matthewjholmes/repo.svg?style=for-the-badge)
+[forks-url](https://github.com/matthewjholmes/rails_engine/network/members)
+[stars-shield](https://img.shields.io/github/stars/matthewjholmes/repo.svg?style=for-the-badge)
+[stars-url](https://github.com/matthewjholmes/rails_engine/stargazers)
+[issues-shield](https://img.shields.io/github/issues/matthewjholmes/repo.svg?style=for-the-badge)
+[issues-url](https://github.com/matthewjholmes/rails_engine/issues)
+[license-shield](https://img.shields.io/github/license/matthewjholmes/repo.svg?style=for-the-badge)
+[license-url](https://github.com/matthewjholmes/rails_engine/blob/master/LICENSE.txt)
+[linkedin-shield](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)
+[linkedin-url](https://www.linkedin.com/in/matthew-j-holmes/)
