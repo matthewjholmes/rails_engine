@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/matthewjholmes/rails_engine">
-    <img src="https://github.com/matthewjholmes/rails_engine/blob/main/media/Rails%20Engine-logos.jpeg" alt="Logo" width="150" height="150">
+    <img src="https://github.com/matthewjholmes/rails_engine/blob/main/media/Rails%20Engine-logos.jpeg" alt="Logo" width="250" height="250">
   </a>
 
   <p align="center">
