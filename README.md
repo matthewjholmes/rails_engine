@@ -13,7 +13,7 @@
     <a href="https://github.com/matthewjholmes/rails_engine"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/matthewjholmes/rails_engine">View Demo</a>
+    <a href="https://github.com/matthewjholmes/rails_engine/blob/main/media/rails_engine_gif.gif">View Demo</a>
     ·
     <a href="https://github.com/matthewjholmes/rails_engine/issues">Report Bug</a>
     ·
