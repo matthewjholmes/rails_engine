@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe 'Create item endpoint' do
   it 'can create an item' do
     merchant = create(:merchant)
-    item_params = { name: "Widget", description: "High quality widget", unit_price: 100.99, merchant_id: merchant.id }
+    item_params = { name: 'Widget', description: 'High quality widget', unit_price: 100.99, merchant_id: merchant.id }
 
     post '/api/v1/items', params: { item: item_params }
 
@@ -34,7 +36,7 @@ RSpec.describe 'Create item endpoint' do
 
   it 'will not create an item if missing attributes' do
     merchant = create(:merchant)
-    item_params = { name: "Widget" }
+    item_params = { name: 'Widget' }
 
     post '/api/v1/items', params: { item: item_params }
     expect(response).to_not be_successful
@@ -43,7 +45,8 @@ RSpec.describe 'Create item endpoint' do
 
   it 'ignores extra attributes' do
     merchant = create(:merchant)
-    item_params = { name: "Widget", description: "High quality widget", unit_price: 100.99, merchant_id: merchant.id, manufacturer: 'Rand Corporation' }
+    item_params = { name: 'Widget', description: 'High quality widget', unit_price: 100.99, merchant_id: merchant.id,
+                    manufacturer: 'Rand Corporation' }
 
     post '/api/v1/items', params: { item: item_params }
 

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe 'Merchant show endpoint' do
@@ -22,7 +24,7 @@ RSpec.describe 'Merchant show endpoint' do
   end
 
   it 'returns 404 status if id is not found' do
-    get "/api/v1/merchants/1"
+    get '/api/v1/merchants/1'
 
     expect(response.status).to eq(404)
   end

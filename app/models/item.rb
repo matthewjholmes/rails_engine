@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class Item < ApplicationRecord
-  before_destroy :delete_empty_invoices!
+  before_destroy :delete_empty_invoices
 
   belongs_to :merchant
   has_many :invoice_items
@@ -12,20 +14,19 @@ class Item < ApplicationRecord
 
   def self.find_items_by_name(name)
     where('name ILIKE ?', "%#{name}%")
-      # .order(:name)
   end
 
   def self.find_items_by_price(min, max)
-  if max && !min
-    where('unit_price < ?', max)
-  elsif min && !max
-    where('unit_price > ?', min)
-  else
-    where('unit_price < ? AND unit_price > ?', max, min)
+    if max && !min
+      where('unit_price < ?', max)
+    elsif min && !max
+      where('unit_price > ?', min)
+    else
+      where('unit_price < ? AND unit_price > ?', max, min)
+    end
   end
-end
 
-  def delete_empty_invoices!
+  def delete_empty_invoices
     invoices.each do |invoice|
       if invoice.items.count == 1
         InvoiceItem.find_by(id: invoice.id).destroy

@@ -1,5 +1,6 @@
-class Merchant < ApplicationRecord
+# frozen_string_literal: true
 
+class Merchant < ApplicationRecord
   has_many :items
 
   def self.find_by_name(name)

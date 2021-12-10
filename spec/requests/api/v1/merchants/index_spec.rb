@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe 'Merchant index endpoints' do
-  it "sends a list of merchants" do
+  it 'sends a list of merchants' do
     create_list(:merchant, 5)
 
     get '/api/v1/merchants'

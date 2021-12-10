@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe 'Items index for given merchant endpoint' do
@@ -27,7 +29,7 @@ RSpec.describe 'Items index for given merchant endpoint' do
   end
 
   it 'returns 404 when id is not valid' do
-    get "/api/v1/merchants/1/items"
+    get '/api/v1/merchants/1/items'
 
     expect(response.status).to eq(404)
   end

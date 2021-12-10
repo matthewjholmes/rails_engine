@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe 'Items index endpoint' do
@@ -35,5 +37,4 @@ RSpec.describe 'Items index endpoint' do
     expect(items[:data]).to be_an(Array)
     expect(items[:data]).to eq([])
   end
-
 end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe 'Item show endpoint' do
@@ -32,7 +34,7 @@ RSpec.describe 'Item show endpoint' do
   end
 
   it 'returns a 404 if id not valid' do
-    get "/api/v1/items/1"
+    get '/api/v1/items/1'
 
     expect(response.status).to eq(404)
   end
